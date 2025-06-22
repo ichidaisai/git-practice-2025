@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #222b45;
+    margin-top: 40px;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.container {
+    width: 180px;
+    min-width: 140px;
+    max-width: 180px;
+    margin: 0;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.08);
+    padding: 24px 12px;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #e0e7ef;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222b45;
+    margin-bottom: 8px;
+}
+
+.faculty {
+    font-size: 1.1rem;
+    color: #5a6a85;
+    background: #eaf0fa;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
